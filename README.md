@@ -1,4 +1,4 @@
-# 4KR
+# Haskell SAT Solver
 This is the repository for the first project of the course Knowledge Representation (2018/2019, period 4), given at the Vrije Universiteit (VU). The goal of the project was to learn more about propositional logic by implementing our own SAT solver. The freedom of the project allowed us to combine this project with our own learning goal, namely to get experience with the functional programming language Haskell.
 
 Note that this is a cleaned version, and that some parts of the original code are omitted for the purpose of clarity. For example, the output will not be in DIMACS format, and we have left out the code for running and analysing the experiments.
