@@ -45,4 +45,4 @@ The output should be the filled out sudoku:
 ```
 
 ## How to convert sudoku to DIMACS format
-`./make_all_sudokus.sh` is used to convert the textfile `Sudokus/1000 sudokus.txt`, with a sudoku on each line, to the DIMACS format. Make sure you run `ghc --make sudoku_to_dimacs.hs -O` to compile the required code. The converted sudokus can be found in `/Data/`. You might have to use `chmod +x make_all_sudokus.sh` to give the script execution privileges.
+`make_all_sudokus.sh` is used to convert the textfile `Sudokus/1000 sudokus.txt`, with a sudoku on each line, to the DIMACS format. Make sure you run `ghc --make sudoku_to_dimacs.hs -O` to compile the required code. Use `sh make_all_sudokus.sh` to convert the example sudokus. The results can be found in `/Data/` and you can run the SAT solver on the converted sudokus.
